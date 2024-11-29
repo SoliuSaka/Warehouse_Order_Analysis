@@ -24,8 +24,8 @@ The objective of this query is to create a table that includes:
 ## Data Source
 - **Dataset**: Warehouse Orders
 - **Tables Used**: 
-  - `warehouse`
-  - `orders`
+  - `warehouse` [click here to view](https://github.com/SoliuSaka/Warehouse_Order_Analysis/blob/main/Warehouse-Orders---Warehouse.csv)
+  - `orders` [click here to view](https://github.com/SoliuSaka/Warehouse_Order_Analysis/blob/main/Warehouse-Orders---Orders.csv)
 - **CSV File**: The cleaned dataset is available as a CSV file attachment.
 
 ## Tools Used
@@ -64,5 +64,5 @@ The objective of this query is to create a table that includes:
      COUNT(Orders.order_id) > 0;
    ```
 ## Results
-   The final output includes a table with warehouse details, total orders, and fulfillment classification.
-![Results Table][] <!-- Replace with the actual link to your image -->```
+   The final output includes a table with warehouse details, the number of orders, total orders, and fulfillment classification.
+![Results Table](https://github.com/SoliuSaka/Warehouse_Order_Analysis/blob/main/Warehouse_analysis.jpg)
