@@ -7,6 +7,7 @@
 4. [Tools Used](#tools-used)
 5. [Methodology](#methodology)
 6. [Results](#results)
+7. [Conclusion](#conclusion)
 
 ## Project Overview
 This project analyzes the `warehouse_orders` dataset in BigQuery, utilizing the `warehouse` and `orders` tables. The goal is to aggregate data to provide insights into warehouse performance based on the number of orders fulfilled.
@@ -66,3 +67,6 @@ The objective of this query is to create a table that includes:
 ## Results
    The final output includes a table with warehouse details, the number of orders, total orders, and fulfillment classification.
 ![Results Table](https://github.com/SoliuSaka/Warehouse_Order_Analysis/blob/main/Warehouse_analysis.jpg)
+
+## Conclusion
+The analysis of the warehouse_orders dataset provides valuable insights into warehouse performance based on order fulfillment. By categorizing each warehouse's fulfillment rates, stakeholders can identify areas for improvement and optimize operations to enhance overall efficiency and service levels.
